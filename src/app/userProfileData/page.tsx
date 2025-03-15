@@ -58,7 +58,7 @@ const UserProfileDataPage = () => {
                 if (newAddress) u.address = newAddress;
                 if (newPhone) u.phone = newPhone;
                 
-                localStorage.setItem(username, JSON.stringify(u)); // sad sam ovo promenila, isprobaj sad menjanje
+                localStorage.setItem(username, JSON.stringify(u));  
 
             } catch(error) {
                 console.log("Error parsing user data:", error);

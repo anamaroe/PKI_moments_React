@@ -33,7 +33,6 @@ const Notification = ({ eventType, eventDate, guestCount, confirmed, dateOfProce
     } else if(eventType == "k"){
         eventName = "Korporativni događaj"; 
     } else {
-        //eventName = eventType.toLowerCase();
         eventName = eventType.charAt(0).toUpperCase() + eventType.slice(1).toLowerCase();
     };
 

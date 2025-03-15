@@ -60,9 +60,6 @@ const cartHelper = (eventType) => {
             date: date
         };
 
-        // console.log("newCartItem: ")
-        // console.log(newCartItem)
-
         const updatedCart = [newCartItem, ...cart];  
         setCart(updatedCart);
         localStorage.setItem(cartName, JSON.stringify(updatedCart));
@@ -87,10 +84,6 @@ const cartHelper = (eventType) => {
         );
         setCart(updatedCart);
         localStorage.setItem(cartName, JSON.stringify(updatedCart));
-
-        // console.log("updatedCart: ")
-        // console.log(updatedCart)
-
         const itemToConfirm = cart.find((item) => item.id === id);
         
         if(itemToConfirm) {
@@ -102,15 +95,9 @@ const cartHelper = (eventType) => {
                 date: itemToConfirm.date
             };
 
-            //console.log("newAdminNotification: ")
-            // console.log(newAdminNotification)
-            
             const updatedNotifs = [newAdminNotification, ...adminNotifs];  
             setAdminNotifs(updatedNotifs);
             localStorage.setItem(adminNotificationsString, JSON.stringify(updatedNotifs));
-
-            //console.log("adminNotifs: ")
-            //console.log(adminNotifs)
         }
     }; 
 

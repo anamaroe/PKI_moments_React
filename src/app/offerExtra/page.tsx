@@ -14,14 +14,7 @@ const OfferExtra = () => {
 
     const [event, setEvent] = useState(null);
 
-    /*
-    id:  
-    photo: 
-    name: 
-    price:
-    description
-    */
-
+    /* id, photo, name, price, description */ 
     useEffect(() => {
         const storedEvent = JSON.parse(localStorage.getItem('currentEvent') || null);
         if (storedEvent) {
@@ -31,9 +24,7 @@ const OfferExtra = () => {
             console.log('No event found in localStorage');
         }
     }, []);
-    
-    const eventType = "p";
-    
+        
     const {
         cart,
         addToCart,

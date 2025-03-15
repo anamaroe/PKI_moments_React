@@ -49,7 +49,7 @@ const UserProfilePassPage = () => {
 
                     const u = JSON.parse(storedUser);    
                     u.password = newPassword;
-                    localStorage.setItem(username, JSON.stringify(u)); // sad sam ovo promenila, isprobaj sad menjanje
+                    localStorage.setItem(username, JSON.stringify(u));  
 
                 } catch(error) {
                     console.log("Error parsing user data:", error);

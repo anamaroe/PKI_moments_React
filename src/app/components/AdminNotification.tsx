@@ -10,7 +10,6 @@ const AdminNotifications = () => {
     useEffect(() => {
         const adminNotifications = JSON.parse(localStorage.getItem("notif_admin")) || [];
         setNotifications(adminNotifications);
-        // console.log(adminNotifications);
     }, []);
 
     const rejectNotification = (id) => {
@@ -55,7 +54,6 @@ const AdminNotifications = () => {
                 localStorage.setItem("notif_admin", JSON.stringify(updatedNotifications));
 
                 // jos: ukloniti tu stavku iz korisnikove korpe
-                // ... to do ...
                 // adminNotifikacija i cart item imaju isti id...
                 let userCartString = "cart_" + notificationToAccept.user;
                 let userCart = [];
@@ -65,10 +63,8 @@ const AdminNotifications = () => {
                 } catch (error) {
                     console.error("Error parsing cart data:", error);
                 }
-                // console.log("old cart:", userCart);
                 userCart = userCart.filter((item) => item.id !== id);
                 localStorage.setItem(userCartString, JSON.stringify(userCart));
-                // console.log("* odbijanje Updated cart:", userCart);
 
                 Swal.fire({
                     text: "Odbijeno.",
@@ -123,7 +119,6 @@ const AdminNotifications = () => {
                     localStorage.setItem("notif_admin", JSON.stringify(updatedNotifications));
 
                     // jos: ukloniti tu stavku iz korisnikove korpe
-                    // ... to do ...
                     let userCartString = "cart_" + notificationToAccept.user;
                     let userCart = [];
                     try {
@@ -132,10 +127,8 @@ const AdminNotifications = () => {
                     } catch (error) {
                         console.error("Error parsing cart data:", error);
                     }
-                    // console.log("* potvrda old cart:", userCart);
                     userCart = userCart.filter((item) => item.id !== id);
                     localStorage.setItem(userCartString, JSON.stringify(userCart));
-                    // console.log("Updated cart:", userCart);
         
                     Swal.fire({
                         text: "Prihvaćeno.",

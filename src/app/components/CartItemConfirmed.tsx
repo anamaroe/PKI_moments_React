@@ -14,7 +14,6 @@ const CartItemConfirmed = ({ eventType, date, guestCount }) => {
     useEffect(() => {
         const storedEvent = JSON.parse(localStorage.getItem("currentEvent") || '[]');
         setEvent(storedEvent);  
-        //console.log(storedEvent)
     }, [eventType]);
 
     if(eventType == "r") {
