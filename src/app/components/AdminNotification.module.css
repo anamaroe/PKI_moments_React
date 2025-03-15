@@ -1,0 +1,93 @@
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    gap: 10px; 
+    justify-content: center;
+    min-height: 100px;  
+    margin-bottom: 100px;
+}
+
+.empty {
+    margin-top: 100px;
+    color: #959595;
+}
+
+.notification {
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1000px;
+    height: 120px; 
+    padding: 16px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.1);
+    gap: 100px;
+}
+
+.notification:hover {
+    transform: scale(1.005);
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.details {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    gap: 70px; 
+}
+
+.details img {
+    opacity: 0.8;
+}
+
+.details div {
+    display: flex;
+    align-items: center; 
+    gap: 8px;  
+}
+
+.eventName, .guestCnt, .eventDate, .username {
+    font-size: 16px;
+    color: #626262;
+    font-weight: 400;
+}
+
+.eventName {
+    width: 100px;
+}
+
+.buttons {
+    display: flex;
+    font-family: 'Montserrat';
+    gap: 20px;  
+}
+
+
+.swal_btn {
+    background-color: #626262;
+    color: white;
+    border: none;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    padding: 12px; 
+    border-radius: 6px;
+    font-size: 18px;  
+    padding: 10px 20px;
+    width: fit-content; 
+    font-family: 'Montserrat';
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+
+    margin: 10px !important;
+}
+
+.swal_btn:hover {
+    background-color: #515050;
+}

@@ -1,0 +1,126 @@
+.title {
+    font-family: 'Montserrat';
+    font-size: 30px;
+    text-align: center;
+    font-weight: 300;
+    color: #c2c2c2;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.subtitle {
+    font-family: 'Montserrat';
+    font-size: 25px;
+    text-align: center;
+    font-weight: 300;
+    color: #c2c2c2;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.notifications {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.pageContent {
+    align-items: center;
+    justify-content: center;
+}
+
+.userData {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 150px; 
+}
+
+.fields {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    gap: 50px;
+}
+
+.fields span {
+    text-align: end;  
+    width: 100%; 
+    color: #828282;
+}
+
+.values {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    gap: 50px;
+}
+
+.values span {
+    text-align: start;  
+    width: 150px; 
+    color: #404040;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 50px;
+}
+
+.logoutBtn {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;  
+    flex-direction: column;
+    margin-bottom: 60px;
+
+    margin-top: 70px;
+}
+
+.logoutBtn span {
+    color: #959595;
+    font-size: 16px;
+}
+
+.logoutBtn img {
+    opacity: 0.4;
+    width: 32px;
+    height: 32px;  
+    transition: opacity 0.3s ease-in-out;
+}
+
+.logoutBtn img:hover {
+    opacity: 0.75;
+}
+
+.swal_btn {
+    background-color: #626262;
+    color: white;
+    border: none;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    padding: 12px; 
+    border-radius: 6px;
+    font-size: 18px;  
+    padding: 10px 20px;
+    width: fit-content; 
+    font-family: 'Montserrat';
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+
+    margin: 10px !important;
+}
+
+.swal_btn:hover {
+    background-color: #515050;
+}

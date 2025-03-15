@@ -1,0 +1,43 @@
+.title {
+    font-family: 'Montserrat';
+    font-size: 30px;
+    text-align: center;
+    font-weight: 300;
+    color: #c2c2c2;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.footer { 
+    text-align: center;
+    padding: 20px 0;
+    color: #959595;
+    font-size: small;
+    width: 100%; 
+    background-color: #bab6b620;
+    margin-top: auto;
+}
+
+.pageContainer {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;  
+}
+
+.content {
+    flex: 1; 
+    padding-bottom: 60px; 
+    min-height: 85vh;
+}
+
+.empty {
+    margin-top: 100px;
+    color: #626262;
+}
+
+.cartItems {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    gap: 10px; 
+}

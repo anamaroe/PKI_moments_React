@@ -19,7 +19,7 @@ body {
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -39,4 +39,33 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+footer { 
+  text-align: center;
+  padding: 20px 0;
+  color: #959595;
+  font-size: small;
+  width: 100%; 
+  background-color: #bab6b620;
+}
+
+.btn {
+  background-color: #626262;
+  color: white;
+  border: none;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  padding: 12px; 
+  border-radius: 6px;
+  font-size: 18px;  
+  padding: 10px 20px;
+  width: fit-content; 
+  font-family: 'Montserrat';
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #515050;
 }

@@ -1,0 +1,29 @@
+.title {
+    font-family: 'Montserrat';
+    font-size: 30px;
+    text-align: center;
+    font-weight: 300;
+    color: #c2c2c2;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.container {
+    min-height: 100vh;  
+}
+
+.content {
+    flex: 1; 
+    padding-bottom: 60px; 
+    min-height: 75vh;
+}
+
+.footer { 
+    text-align: center;
+    padding: 20px 0;
+    color: #959595;
+    font-size: small;
+    width: 100%; 
+    background-color: #bab6b620;
+    margin-top: auto;
+}

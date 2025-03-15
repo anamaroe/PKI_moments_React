@@ -1,0 +1,22 @@
+
+.swal_btn {
+    background-color: #626262;
+    color: white;
+    border: none;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    padding: 12px; 
+    border-radius: 6px;
+    font-size: 18px;  
+    padding: 10px 20px;
+    width: fit-content; 
+    font-family: 'Montserrat';
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+
+    margin: 10px !important;
+}
+
+.swal_btn:hover {
+    background-color: #515050;
+}

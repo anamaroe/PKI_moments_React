@@ -1,0 +1,123 @@
+.title {
+    font-family: 'Montserrat';
+    font-size: 30px;
+    text-align: center;
+    font-weight: 300;
+    color: #c2c2c2;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;  
+    align-items: center;  
+    justify-content: center; 
+}
+
+.event img {
+    width: 100%; 
+    max-width: 500px;  
+    height: 250px;   
+    object-fit: cover;   
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.event img.selected {
+    border: 3px solid #626262;  
+    border-radius: 1px;
+}
+
+.event {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);  
+    row-gap: 40px;  
+    justify-content: center;
+    align-items: center;
+    column-gap: 100px;
+
+    padding: 0 8vw;
+    padding-bottom: 30px;
+    margin-top: 10px;
+}
+
+.buttons {
+    padding: 8px 16px;
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+    margin-bottom: 50px;
+}
+
+.buttons button { 
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.allEvents > img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;  
+}
+
+.allEvents {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);  
+    row-gap: 40px;  
+    justify-content: center;
+    align-items: center;
+    column-gap: 0px;
+
+    padding: 0 8vw;
+    padding-bottom: 100px;
+}
+
+.allEvents > div, .allEvents > .addEvent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;  
+}
+
+.allEvents img {
+    width: 100%;  
+    max-width: 500px;  
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 0px;  
+}
+
+.inputs span {
+    color: #626262;
+}
+
+.allEvents .addEvent {      
+    margin-top: 300px;
+}
+
+.inputs input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #626262;
+    font-family: 'Montserrat';
+
+    margin-bottom: 30px;
+}
+
+.inputs input:focus {
+    border-color: #626262;  
+    outline: none;
+}
+
+.inputs input::placeholder {
+    color: #ccc;
+}
+
+.choosePhoto {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}

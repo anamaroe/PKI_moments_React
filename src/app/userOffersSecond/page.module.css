@@ -1,0 +1,63 @@
+.title {
+    font-family: 'Montserrat';
+    font-size: 30px;
+    text-align: center;
+    font-weight: 300;
+    color: #c2c2c2;
+    margin-top: 60px;
+}
+
+.offersContainer {
+    display: flex;
+    justify-content: space-around;   
+    align-items: flex-start;  
+    gap: 40px;   
+    flex-wrap: wrap;  
+    width: 100%;
+    max-width: 1400px;  
+    margin: 50px auto; 
+    transition: transform 0.3s ease-in-out; 
+}
+
+.offersContainer div {
+    display: flex;
+    flex-direction: column; 
+    text-align: left;  
+    width: 31%; 
+    min-width: 320px; 
+}
+
+.offersContainer img {
+    width: 100%; 
+    max-width: 600px;  
+    height: 200px;   
+    object-fit: cover;   
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.offersContainer div:hover {
+    transform: scale(1.03);
+    transition: transform 0.2s ease-in-out;
+}
+
+.arrows {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center;
+    gap: 100px;  
+    margin-top: 69px;
+    margin-bottom: 99px;
+}
+
+.arrows img {
+    width: 25px;
+    height: 25px;
+    opacity: 0.4;
+}
+
+.arrows img:hover {
+    opacity: 0.85;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}

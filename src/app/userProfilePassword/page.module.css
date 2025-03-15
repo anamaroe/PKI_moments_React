@@ -1,0 +1,96 @@
+.title {
+    font-family: 'Montserrat';
+    font-size: 30px;
+    text-align: center;
+    font-weight: 300;
+    color: #c2c2c2;
+    margin-top: 60px;
+    margin-bottom: 14px;
+}
+
+.subtitle {
+    font-family: 'Montserrat';
+    font-size: 25px;
+    text-align: center;
+    font-weight: 300;
+    color: #c2c2c2;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.pageContent {
+    align-items: center;
+    justify-content: center;
+}
+
+.userData {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;             
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 50px;
+    margin-bottom: 155px;
+}
+
+.fields {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    gap: 67px;
+
+    width: 150px; 
+    margin-right: 33px;
+    margin-top: 26px;
+}
+
+.fields span {
+    text-align: end;  
+    width: 100%; 
+    color: #828282;  
+}
+
+.values {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    gap: 30px;
+    width: 150px; 
+    margin-top: 15px;
+}
+
+.values input { 
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #626262;
+    font-family: 'Montserrat';
+
+    width: 150px;
+    margin-left: -60px;
+    margin-top: 20px;
+}
+
+.inputGroup input:focus {
+    border-color: #626262;  
+    outline: none;
+}
+
+.inputGroup input::placeholder {
+    color: #ccc;
+}
+
+.surname {
+    margin-top: 0px;
+}

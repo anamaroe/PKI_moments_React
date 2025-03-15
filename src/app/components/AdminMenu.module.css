@@ -1,0 +1,43 @@
+.logo h1 {
+    font-size: 44px;
+    font-weight: 400;
+    color: #959595;
+    margin-left: -50px; 
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 15px 20px;
+    background-color: #fff;
+    gap: 120px;
+    margin-top: 30px;
+}
+
+.header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 120px;
+    padding: 0;
+    margin: 0;
+}
+
+.header nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: 'Montserrat';
+    transition: color 0.3s ease;
+    padding-bottom: 5px;
+}
+
+.header nav ul li a:hover {
+    color: #959595;
+}
+
+.header nav ul li a.active {  
+    border-bottom: 1px solid #000000;  
+}

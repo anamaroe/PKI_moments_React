@@ -1,0 +1,62 @@
+.notification {
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1000px;
+    height: 120px; 
+    padding: 16px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.1);
+    gap: 100px;
+}
+
+.notification:hover {
+    transform: scale(1.005);
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.details {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    gap: 70px; 
+}
+
+.details img {
+    opacity: 0.8;
+}
+
+.details div {
+    display: flex;
+    align-items: center; 
+    gap: 8px;  
+}
+
+.eventName, .guestCnt, .eventDate, .isConfirmed {
+    font-size: 16px;
+    color: #626262;
+    font-weight: 400;
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.eventName {
+    width: 207px; 
+}
+
+.guestCnt, .isConfirmed {
+    width: 100px; 
+}
+
+.eventDate {
+    width: 150px; 
+}
+
+.dateTimeOfProcessing {
+    width: 70px; 
+} 

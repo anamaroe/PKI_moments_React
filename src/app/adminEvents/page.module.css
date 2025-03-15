@@ -1,0 +1,58 @@
+.title {
+    font-family: 'Montserrat';
+    font-size: 30px;
+    text-align: center;
+    font-weight: 300;
+    color: #c2c2c2;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.event img {
+    width: 100%; 
+    max-width: 100%;  
+    height: 170px;   
+    object-fit: cover;   
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.event span {
+    text-transform: uppercase;
+}
+
+.allEvents {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);  
+    row-gap: 40px;  
+    justify-content: center;
+    align-items: center;
+    column-gap: 0px;
+
+    padding: 0 8vw;
+    padding-bottom: 100px;
+}
+
+.allEvents > div, .allEvents > .addEvent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;  
+}
+
+.allEvents img {
+    width: 100%;  
+    max-width: 500px;  
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 0px;  
+}
+
+.allEvents span {
+    color: #626262;
+}
+
+.allEvents .addEvent {      
+    margin-top: 300px;
+}
+
