@@ -19,8 +19,8 @@
 
 .offerContainer {
     display: flex;
-    justify-content: space-around;  /* ravnomerno rasporedjuje elemente */
-    align-items: flex-start; /* poravnanje na vrh */
+    justify-content: space-around;  
+    align-items: flex-start;  
     gap: 10px;   
     flex-wrap: wrap;  
     width: 100%;
